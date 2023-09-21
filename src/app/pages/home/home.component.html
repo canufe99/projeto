@@ -1,0 +1,21 @@
+<div class="container__home-page">
+    <div class="container__home-page-left">
+        <img src="{{homePagePhoto}}" alt="">
+    </div>
+
+    <div class="container__home-page-right ">        
+        <h1>
+            <span class="title-name"> 
+                {{homePageTitle}} 
+            </span><span class="sub-title"> 
+                {{homePageSubitle}} 
+            </span>
+        </h1>
+        <p>
+            {{homePageDescription}}
+        </p>
+        <a [routerLink]="['elements']"> 
+            VER PROJETOS >> 
+        </a>        
+    </div>
+</div>

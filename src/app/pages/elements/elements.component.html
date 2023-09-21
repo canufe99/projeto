@@ -1,0 +1,9 @@
+<div class="elements__container">
+    <ng-container *ngFor="let element of elements">
+        <app-element
+            elementId="{{element.id}}"
+            elementTitle="{{element.title}}"
+            elementPhoto="{{element.photo}}"
+        ></app-element>    
+    </ng-container>
+</div>
